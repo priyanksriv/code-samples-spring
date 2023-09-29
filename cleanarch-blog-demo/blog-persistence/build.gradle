@@ -1,0 +1,7 @@
+dependencies {
+    compile(
+            project(':blog-domain'),
+            "org.springframework.boot:spring-boot-starter-data-mongodb",
+            "de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.1.1"
+    )
+}

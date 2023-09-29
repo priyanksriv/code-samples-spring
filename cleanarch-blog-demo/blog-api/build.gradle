@@ -1,0 +1,6 @@
+dependencies {
+	compile(
+			project(':blog-domain'),
+			"org.springframework.boot:spring-boot-starter-web"
+	)
+}

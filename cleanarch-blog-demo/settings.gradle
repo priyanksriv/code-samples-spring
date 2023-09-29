@@ -1,0 +1,13 @@
+rootProject.name = 'cleanarch-blog-demo'
+
+// domain
+include ':blog-domain'
+
+// application
+include ':blog-application-service'
+
+// interface adapters
+include ':blog-api'
+include ':blog-rabbitmq'
+include ':blog-persistence'
+

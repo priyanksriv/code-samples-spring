@@ -1,0 +1,43 @@
+buildscript {
+	ext {
+	}
+	repositories {
+		mavenLocal()
+		mavenCentral()
+	}
+}
+
+plugins {
+	id 'org.springframework.boot' version '2.1.2.RELEASE' apply false
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+allprojects {
+	apply plugin: 'idea'
+
+	group = 'com.msdemoarch'
+	version = '0.0.1-SNAPSHOT'
+}
+
+subprojects {
+	apply plugin: 'java'
+	apply plugin: 'io.spring.dependency-management'
+	
+	dependencyManagement {
+		imports {
+			mavenBom 'io.projectreactor:reactor-bom:Californium-SR2'
+			mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+		}
+	}
+	
+	repositories {
+		mavenCentral()
+	}
+
+	dependencies {
+		compileOnly('org.projectlombok:lombok:1.18.2')
+		annotationProcessor("org.projectlombok:lombok:1.18.2")
+		compile('ma.glasnost.orika:orika-core:1.5.2')
+	}
+}

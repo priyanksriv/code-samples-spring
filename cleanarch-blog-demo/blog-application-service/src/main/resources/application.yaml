@@ -1,0 +1,17 @@
+server:
+  port: 9900
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        post-sink:
+          destination: Blog.postQueue
+          consumer:
+            concurrency: 2
+        post-summary-sink:
+          destination: Blog.postSummaryQueue
+          consumer:
+            concurrency: 2
+        post-summary-src:
+          destination: Blog.postSummaryQueue
