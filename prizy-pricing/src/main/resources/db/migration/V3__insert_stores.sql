@@ -1,0 +1,28 @@
+DELETE FROM STORE;
+
+INSERT INTO STORE(ID, STORE_NAME, DESCRIPTION, CREATED) VALUES
+('fe9e7f8a-b004-4613-a96f-e56aa931ca50', 'Store-1', 'Store 1 desc', '2017-10-15 00:20:19.392'),
+('35e4ed0e-9460-44fc-92ab-a473b21dcd92', 'Store-2', 'Store 2 desc', '2017-10-15 00:20:19.392'),
+('1673d70b-9ac0-49ab-9b7b-b524cce7837a', 'Store-3', 'Store 3 desc', '2017-10-15 00:20:19.392'),
+('33c30d1d-7307-483f-9104-1ac222c27beb', 'Store-4', 'Store 4 desc', '2017-10-15 00:20:19.392'),
+('3eae7e4b-cb37-46da-8bb1-53d5f60920a8', 'Store-5', 'Store 5 desc', '2017-10-15 00:20:19.392'),
+('a728cda8-3a72-4144-aa43-cbbc165ac508', 'Store-6', 'Store 6 desc', '2017-10-15 00:20:19.392'),
+('92ad3a20-f64a-4336-970c-caecbd0c9cf0', 'Store-7', 'Store 7 desc', '2017-10-15 00:20:19.392'),
+('a4c9f803-754e-493d-a28f-db5f24f2c4ce', 'Store-8', 'Store 8 desc', '2017-10-15 00:20:19.392'),
+('23f7970c-6fd2-4dd0-9fe4-e63ab9b949ad', 'Store-9', 'Store 9 desc', '2017-10-15 00:20:19.392'),
+('c661924f-2280-44f4-9109-2ffd4fc5fc70', 'Store-10', 'Store 10 desc', '2017-10-15 00:20:19.392'),
+('5bb2973c-279c-4fe8-ae19-9b58358e5987', 'Store-11', 'Store 11 desc', '2017-10-15 00:20:19.392'),
+('da15401c-e06f-40d7-a63d-cfca21f8f499', 'Store-12', 'Store 12 desc', '2017-10-15 00:20:19.392'),
+('2dc32d21-6dfa-4cf9-b394-319de396a88d', 'Store-13', 'Store 13 desc', '2017-10-15 00:20:19.392'),
+('bf5c45af-ec20-4efe-8ff1-bed19acd360d', 'Store-14', 'Store 14 desc', '2017-10-15 00:20:19.392'),
+('7b9d20d7-e008-4000-9b57-7b5991eafd02', 'Store-15', 'Store 15 desc', '2017-10-15 00:20:19.392'),
+('b19df541-017b-451c-8e0a-4c63b76bd99d', 'Store-16', 'Store 16 desc', '2017-10-15 00:20:19.392'),
+('13a47ea6-a1fc-4313-bcc5-bb9402850fe1', 'Store-17', 'Store 17 desc', '2017-10-15 00:20:19.392'),
+('048aa4e2-b1c8-4e5f-9642-b7908b8f985b', 'Store-18', 'Store 18 desc', '2017-10-15 00:20:19.392'),
+('93b01a6b-9e70-45e8-978c-0f8f1e8f3e21', 'Store-19', 'Store 19 desc', '2017-10-15 00:20:19.392'),
+('a72811f4-dde0-4f4f-9d8a-0d391a393f9d', 'Store-20', 'Store 20 desc', '2017-10-15 00:20:19.392'),
+('c1f62ca9-27c2-4455-9fa5-d04e69fea4e0', 'Store-21', 'Store 21 desc', '2017-10-15 00:20:19.392'),
+('5d0b4c41-a887-4fab-a52e-e0ef6ccde608', 'Store-22', 'Store 22 desc', '2017-10-15 00:20:19.392'),
+('f20856e7-7c3f-443a-aa6e-b3fd82cccd5f', 'Store-23', 'Store 23 desc', '2017-10-15 00:20:19.392'),
+('12ea85cd-28e4-4f92-aae3-fb8d6048aaf1', 'Store-24', 'Store 24 desc', '2017-10-15 00:20:19.392'),
+('b0a7226c-8e23-411a-9cfa-cdd95a569c93', 'Store-25', 'Store 25 desc', '2017-10-15 00:20:19.392');

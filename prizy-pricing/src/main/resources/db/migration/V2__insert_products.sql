@@ -1,0 +1,28 @@
+DELETE FROM PRODUCT;
+
+INSERT INTO PRODUCT(ID, PRODUCT_NAME, DESCRIPTION, BASE_PRICE, CREATED) VALUES
+('b04069a2-5c57-4a72-b0f6-900923772dcd', 'Product-1', 'Generic product 1 desc', 9101.0, '2017-10-15 00:20:19.392'),
+('df619846-fb36-4210-ab1a-6cfee7f5f8d9', 'Product-2', 'Generic product 2 desc', 4552.9, '2017-10-15 00:20:19.392'),
+('5522b17c-bbac-4029-8bc7-9d9bbad301d5', 'Product-3', 'Generic product 3 desc', 8439.2, '2017-10-15 00:20:19.392'),
+('78bd9e51-f1a4-41a8-9061-53b46e20f162', 'Product-4', 'Generic product 4 desc', 2886.0, '2017-10-15 00:20:19.392'),
+('e247bd39-dae9-4087-bb7b-48db1bec14bc', 'Product-5', 'Generic product 5 desc', 5680.6, '2017-10-15 00:20:19.392'),
+('18204160-2dcc-496b-8c00-898f15f75983', 'Product-6', 'Generic product 6 desc', 2102.6, '2017-10-15 00:20:19.392'),
+('a9c6f232-59bd-4eb3-87f4-1b76c49e3c7c', 'Product-7', 'Generic product 7 desc', 7257.2, '2017-10-15 00:20:19.392'),
+('a290bab3-233f-4abf-8ead-cbfa6c4da090', 'Product-8', 'Generic product 8 desc', 5549.5, '2017-10-15 00:20:19.392'),
+('bed7decf-a590-44f6-a3a4-a0f3eb25e697', 'Product-9', 'Generic product 9 desc', 5523.5, '2017-10-15 00:20:19.392'),
+('31a6aed0-5c7e-44c2-ad54-4a9dfe125f20', 'Product-10', 'Generic product 10 desc', 6750.3, '2017-10-15 00:20:19.392'),
+('11eb1a42-f75b-42c7-8079-ddd2f72d0722', 'Product-11', 'Generic product 11 desc', 4889.0, '2017-10-15 00:20:19.392'),
+('a4de46b6-cb70-4b8a-9b54-9c11baeb1a60', 'Product-12', 'Generic product 12 desc', 8359.2, '2017-10-15 00:20:19.392'),
+('53a33687-8f88-4b89-9d3d-17bcf81a53e6', 'Product-13', 'Generic product 13 desc', 3342.0, '2017-10-15 00:20:19.392'),
+('3d15b8cf-6f02-4757-8e7b-6a18cdf51787', 'Product-14', 'Generic product 14 desc', 3773.0, '2017-10-15 00:20:19.392'),
+('9b301744-dbd6-48aa-9a42-5fd1dcab0a25', 'Product-15', 'Generic product 15 desc', 3356.4, '2017-10-15 00:20:19.392'),
+('37b5a3ba-5f0c-4d9a-9a39-14fbe427f9c1', 'Product-16', 'Generic product 16 desc', 2988.6, '2017-10-15 00:20:19.392'),
+('f00a6ea0-6b57-4d31-916b-b895aab7e871', 'Product-17', 'Generic product 17 desc', 5123.8, '2017-10-15 00:20:19.392'),
+('e6e94aaf-f83b-4523-9cd0-af6c916c26d6', 'Product-18', 'Generic product 18 desc', 5771.5, '2017-10-15 00:20:19.392'),
+('37d459f0-8f53-43fa-8587-fcfb98f5a85f', 'Product-19', 'Generic product 19 desc', 5016.7, '2017-10-15 00:20:19.392'),
+('0fb3fa76-cac5-44dc-96a5-7aa03086f69a', 'Product-20', 'Generic product 20 desc', 8285.9, '2017-10-15 00:20:19.392'),
+('75dd82d6-53f6-4937-a7be-050438b06401', 'Product-21', 'Generic product 21 desc', 9651.1, '2017-10-15 00:20:19.392'),
+('4f4c58a6-d24d-4220-8c51-c2a412ebf86c', 'Product-22', 'Generic product 22 desc', 4928.6, '2017-10-15 00:20:19.392'),
+('c4b9aaef-5611-496c-892d-3a120c7e30a0', 'Product-23', 'Generic product 23 desc', 3053.8, '2017-10-15 00:20:19.392'),
+('43be963c-8cca-4f54-88d0-acea7a40b318', 'Product-24', 'Generic product 24 desc', 1196.6, '2017-10-15 00:20:19.392'),
+('cee292a5-bf81-4464-9638-c8f2eea35d53', 'Product-25', 'Generic product 25 desc', 1069.4, '2017-10-15 00:20:19.392');

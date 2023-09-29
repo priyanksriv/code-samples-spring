@@ -1,0 +1,4 @@
+Instructions to run and test the application are available in the markdown file readme/readme.md (the file contains images).
+
+Also available and best viewed at: 
+https://github.com/sriv-priyank/prizy-pricing/blob/master/readme/readme.md
